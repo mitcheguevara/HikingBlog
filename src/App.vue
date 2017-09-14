@@ -15,9 +15,10 @@
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
 import addBlog from './components/addBlog.vue';
-// import updateBlog from './components/updateBlog.vue';
 import showBlogs from './components/showBlogs.vue';
 import listBlogs from './components/listBlogs.vue';
+import cover from './components/cover.vue';
+
 
 
 export default {
@@ -25,9 +26,9 @@ export default {
       'app-header': Header,
         'app-footer': Footer,
         'add-blog': addBlog,
-        // 'update-blog': updateBlog,
         'show-blogs': showBlogs,
-        'list-blogs': listBlogs
+        'list-blogs': listBlogs,
+        'cover': cover
 
     },
     data () {

@@ -43,12 +43,14 @@
               <li v-for="category in blog.categories">{{ category }}</li>
             </ul>
             <p>Author:{{ blog.author }}</p>
+
         </div>
     </div>
 </template>
 
 <script>
 // Imports
+
 export default {
     data () {
         return {
@@ -58,7 +60,7 @@ export default {
                 categories: [],
                 author:''
             },
-            authors:['Edwin','Chiarra','Mirch'],
+            authors:['Edwin','Chiarra','KRISTIN FRENDEWEY','Casey Schreiner', 'Jake From Statefarm', 'Elmo From Sesamea Street','The Lobby Security Lady','Loki The Neighborhood Gaurd Dog'],
             submitted:false,
         }
     },

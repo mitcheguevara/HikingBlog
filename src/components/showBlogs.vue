@@ -1,13 +1,17 @@
 <template>
-  <div v-theme:="'narrow'" id="show-blogs">
-    <!-- <div v-theme:column="'narrow'" id="show-blogs"> -->
+  <div v-theme:="'wide'" id="show-blogs">
+
         <h1>All Blog Articles</h1>
         <input type="text" v-model="search"placeholder="search blogs"/>
+
         <div v-for="blog in filteredBlogs" class="single-blog">
-          <router-link v-bind:to="'/blog/' + blog.id"><h2>{{ blog.title }}</h2></router-link>
-            <!-- <h2 v-rainbow>{{ blog.title |to-uppercase}}</h2> -->
-            <article>{{ blog.content }}</article>
+
+          <router-link  v-rainbow v-bind:to="'/blog/' + blog.id"><h2>{{ blog.title }}</h2></router-link>
+
+            <article>{{ blog.content | snippet }}</article>
+
         </div>
+
     </div>
 </template>
 
@@ -45,11 +49,23 @@ export default {
 #show-blogs{
     max-width: 800px;
     margin: 0px auto;
+    display: flex;
+      flex-wrap: wrap;
+      list-style-type: none;
+      padding: 0;
+
 }
+
 .single-blog{
     padding: 20px;
     margin: 20px 0;
     box-sizing: border-box;
     background: #eee;
+    flex-grow: 1;
+    flex-basis: 300px;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #222;
+    margin: 10px;
 }
 </style>
