@@ -10,8 +10,14 @@ I was not able to get full CRUD functionality ( I cannot update or delete at thi
 
 
 # Description
-Blog about your hiking trip, 
+Blog about your hiking trip, bookmark other users post, and geo tag your photos.
+
 # Features
+Directives- Blog post are being hosted on fire base and populate the show page.
+Directives- Blog titles change everything time the page is refreshed using.
+filters- Upcase for titles.
+Filters-Snippet blog text on the show page.
+Keyframes- To make the background change color .
 
 
 # Framworks/Languages Used 
