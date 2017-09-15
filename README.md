@@ -1,5 +1,14 @@
 # Hiking Blog
 
+## User stories 
+MVP- users are able to create blog post 
+Silver- Users are able to create accounts and book mark other blogs
+Gold- Users are able to geo tag photos and make a trail. 
+
+## Outcomes
+I was not able to get full CRUD functionality ( I cannot update or delete at this time).
+
+
 # Description
 Blog about your hiking trip, 
 # Features
@@ -13,22 +22,11 @@ Blog about your hiking trip,
 ##### Firebase (database)
 
 # Resources 
-https://vuejs.org/
-https://vuejs.org/v2/guide/
-https://tutorialzine.com/2016/03/5-practical-examples-for-learning-vue-js
+https://vuejs.org/ (general overview)
+https://vuejs.org/v2/guide/ (installation)
+https://tutorialzine.com/2016/03/5-practical-examples-for-learning-vue-js (learning examples)
+https://012.vuejs.org/guide/directives.html (directives)
+https://vuejs.org/v2/guide/custom-directive.html (custom (directives
 
 
 
-
-
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-```
