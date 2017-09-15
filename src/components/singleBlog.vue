@@ -10,7 +10,6 @@
         <td v-on:click.prevent="onDelete(index)"><a>✗</a></td>
 
         </div>
-    </div>
 
 </template>
 

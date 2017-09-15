@@ -3,8 +3,10 @@
       <h1 v-on:click="changeTitle">{{ title }}</h1>
       <nav>
       <ul>
-        <li><router-link to="/" exact>Blog</router-link></li>
+        <li><router-link to="/" exact>Cover</router-link></li>
+        <li><router-link to="/show" exact>Blog</router-link></li>
         <li><router-link to="/add" exact>Add a New Blog</router-link></li>
+
       </ul>
     </nav>
     </header>
@@ -31,7 +33,7 @@ export default {
 </script>
 <style scoped>
 header{
-    background: lightgreen;
+    background: #585858;
     padding: 10px;
 }
 h1{
@@ -55,7 +57,7 @@ a{
     border-radius: 10px;
 }
 nav{
-    background: #444;
+    background: #DE1B1B;
     padding: 14px 0;
     margin-bottom: 40px;
 }

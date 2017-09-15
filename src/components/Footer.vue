@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <p>Copyright 2017 {{ title }}</p>
+        <p>Well damn it crashed. {{ title }}</p>
     </footer>
 </template>
 <script>
@@ -24,7 +24,7 @@ footer{
     padding: 6px;
 }
 p{
-        color: lightgreen;
+        color: #585858;
         text-align: center;
 }
 </style>

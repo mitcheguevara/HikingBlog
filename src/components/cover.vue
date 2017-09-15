@@ -1,8 +1,9 @@
 <template>
-  <nav>
+<main>
 
   <div v-theme:="'narrow'" id="cover">
 
+  <nav>
     <ul>
       <li><router-link to="/show" exact>Blog</router-link></li>
       <li><router-link to="/add" exact>Add a New Blog</router-link></li>
@@ -16,6 +17,8 @@
     <router-view></router-view>
 
   </div>
+</main>
+
 </template>
 <script>
 
@@ -36,5 +39,9 @@
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+img{
+  width: 100%;
+    height: auto;
 }
 </style>

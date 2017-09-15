@@ -1,6 +1,8 @@
 <template>
     <div>
       <app-header v-bind:title="title" v-on:changeTitle="updateTitle($event)"></app-header>
+      <img src="./assets/hiking-along-the-edge-near-tiniteqilaaq-visit-greenland.jpg">
+
 <router-view></router-view>
             <!-- <show-blogs></show-blogs>
             <list-blogs></list-blogs>
@@ -8,6 +10,7 @@
         <app-footer v-bind:title="title"></app-footer>
 
     </div>
+
 </template>
 
 <script>
@@ -46,8 +49,22 @@ export default {
 </script>
 
 <style>
-body{
+img{
+  width: 100%;
+    height: auto;
+}
+body {
     margin: 0;
     font-family: 'Nunito SemiBold';
+     background-color: #F6F6F6;
+     -webkit-animation: random 5s infinite;
+     animation: random 5s infinite;
 }
+/*@keyframes  random {
+    15% { background-color: red; }
+    30% { background-color: yellow; }
+    45% { background-color: green; }
+    60% { background-color: blue; }
+    75% { background-color: white; }
+}*/
 </style>
