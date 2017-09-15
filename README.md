@@ -1,6 +1,21 @@
 # Hiking Blog
 
-> A Vue.js project
+# Description
+Blog about your hiking trip, 
+# Features
+
+# Framworks/Languages Used 
+#### CSS
+#### HTML
+#### Javascript
+#### VUE.js
+#### Firebase (database)
+
+# Resources 
+https://vuejs.org/
+
+
+
 
 
 
