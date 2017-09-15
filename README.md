@@ -4,15 +4,18 @@
 Blog about your hiking trip, 
 # Features
 
+
 # Framworks/Languages Used 
-#### CSS
-#### HTML
-#### Javascript
-#### VUE.js
-#### Firebase (database)
+##### CSS
+##### HTML
+##### Javascript
+##### VUE.js
+##### Firebase (database)
 
 # Resources 
 https://vuejs.org/
+https://vuejs.org/v2/guide/
+https://tutorialzine.com/2016/03/5-practical-examples-for-learning-vue-js
 
 
 
